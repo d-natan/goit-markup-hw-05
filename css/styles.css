@@ -477,7 +477,7 @@ img {
 }
 
 .footer-form-container {
-
+    margin-left: 80px;
 }
 
 .footer-form-title {
@@ -531,7 +531,12 @@ input[type="email"]::placeholder {
     border-radius: 4px;    
 }
 
+.footer-form-button:hover {
+    background-color: #31D0AA;
+}
+
 .footer-form-button-icon {
+    fill: #ffffff;
     margin-left: 16px;
 }
 
@@ -712,7 +717,7 @@ input[type="email"]::placeholder {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked + .checkbox-span {
+.checkbox-input:checked+.checkbox-text>.checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -743,4 +748,5 @@ input[type="checkbox"]:checked + .checkbox-span {
     justify-content: flex-start;
     flex-direction: row;
     gap: 10px;
+    margin: 0 auto;
 }
