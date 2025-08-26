@@ -510,7 +510,7 @@ img {
 }
 
 input[type="email"]::placeholder {
-    color #ffffff;
+    color: #ffffff;
 }
 
 .footer-form-button {
