@@ -491,10 +491,6 @@ img {
 
 .footer-form {
     display: flex;
-
-}
-
-.footer-form-label {
     gap: 24px;
 }
 
